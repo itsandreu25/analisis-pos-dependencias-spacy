@@ -1,1 +1,115 @@
-
+﻿oracion_id,oracion,token,lema,pos,morfologia,dependencia,cabeza
+O1,La estudiante resuelve el ejercicio.,La,el,DET,Definite=Def|Gender=Fem|Number=Sing|PronType=Art,det,estudiante
+O1,La estudiante resuelve el ejercicio.,estudiante,estudiante,NOUN,Number=Sing,nsubj,resuelve
+O1,La estudiante resuelve el ejercicio.,resuelve,resolver,VERB,Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin,ROOT,resuelve
+O1,La estudiante resuelve el ejercicio.,el,el,DET,Definite=Def|Gender=Masc|Number=Sing|PronType=Art,det,ejercicio
+O1,La estudiante resuelve el ejercicio.,ejercicio,ejercicio,NOUN,Gender=Masc|Number=Sing,obj,resuelve
+O1,La estudiante resuelve el ejercicio.,.,.,PUNCT,PunctType=Peri,punct,resuelve
+O2,El investigador analiza cuidadosamente los resultados.,El,el,DET,Definite=Def|Gender=Masc|Number=Sing|PronType=Art,det,investigador
+O2,El investigador analiza cuidadosamente los resultados.,investigador,investigador,NOUN,Gender=Masc|Number=Sing,nsubj,analiza
+O2,El investigador analiza cuidadosamente los resultados.,analiza,analizar,VERB,Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin,ROOT,analiza
+O2,El investigador analiza cuidadosamente los resultados.,cuidadosamente,cuidadosamente,ADV,,advmod,analiza
+O2,El investigador analiza cuidadosamente los resultados.,los,el,DET,Definite=Def|Gender=Masc|Number=Plur|PronType=Art,det,resultados
+O2,El investigador analiza cuidadosamente los resultados.,resultados,resultado,NOUN,Gender=Masc|Number=Plur,obj,analiza
+O2,El investigador analiza cuidadosamente los resultados.,.,.,PUNCT,PunctType=Peri,punct,analiza
+O3,Los modelos lingüísticos procesan textos en español.,Los,el,DET,Definite=Def|Gender=Masc|Number=Plur|PronType=Art,det,modelos
+O3,Los modelos lingüísticos procesan textos en español.,modelos,modelo,NOUN,Gender=Masc|Number=Plur,nsubj,procesan
+O3,Los modelos lingüísticos procesan textos en español.,lingüísticos,lingüístico,ADJ,Gender=Masc|Number=Plur,amod,modelos
+O3,Los modelos lingüísticos procesan textos en español.,procesan,procesar,VERB,Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin,ROOT,procesan
+O3,Los modelos lingüísticos procesan textos en español.,textos,texto,NOUN,Gender=Masc|Number=Plur,obj,procesan
+O3,Los modelos lingüísticos procesan textos en español.,en,en,ADP,,case,español
+O3,Los modelos lingüísticos procesan textos en español.,español,español,NOUN,Gender=Masc|Number=Sing,nmod,textos
+O3,Los modelos lingüísticos procesan textos en español.,.,.,PUNCT,PunctType=Peri,punct,procesan
+O4,María entregó el informe al profesor.,María,María,PROPN,,nsubj,entregó
+O4,María entregó el informe al profesor.,entregó,entregar,VERB,Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin,ROOT,entregó
+O4,María entregó el informe al profesor.,el,el,DET,Definite=Def|Gender=Masc|Number=Sing|PronType=Art,det,informe
+O4,María entregó el informe al profesor.,informe,informe,NOUN,Gender=Masc|Number=Sing,obj,entregó
+O4,María entregó el informe al profesor.,al,al,ADP,Definite=Def|Gender=Masc|Number=Sing|PronType=Art,case,profesor
+O4,María entregó el informe al profesor.,profesor,profesor,NOUN,Gender=Masc|Number=Sing,nmod,informe
+O4,María entregó el informe al profesor.,.,.,PUNCT,PunctType=Peri,punct,entregó
+O5,Ellos revisaron rápidamente las referencias bibliográficas.,Ellos,él,PRON,"Case=Acc,Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs",nsubj,revisaron
+O5,Ellos revisaron rápidamente las referencias bibliográficas.,revisaron,revisar,VERB,Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin,ROOT,revisaron
+O5,Ellos revisaron rápidamente las referencias bibliográficas.,rápidamente,rápidamente,ADV,,advmod,revisaron
+O5,Ellos revisaron rápidamente las referencias bibliográficas.,las,el,DET,Definite=Def|Gender=Fem|Number=Plur|PronType=Art,det,referencias
+O5,Ellos revisaron rápidamente las referencias bibliográficas.,referencias,referencia,NOUN,Gender=Fem|Number=Plur,obj,revisaron
+O5,Ellos revisaron rápidamente las referencias bibliográficas.,bibliográficas,bibliográfico,ADJ,Gender=Fem|Number=Plur,amod,referencias
+O5,Ellos revisaron rápidamente las referencias bibliográficas.,.,.,PUNCT,PunctType=Peri,punct,revisaron
+O6,El sistema identifica palabras y relaciones sintácticas.,El,el,DET,Definite=Def|Gender=Masc|Number=Sing|PronType=Art,det,sistema
+O6,El sistema identifica palabras y relaciones sintácticas.,sistema,sistema,NOUN,Gender=Masc|Number=Sing,nsubj,identifica
+O6,El sistema identifica palabras y relaciones sintácticas.,identifica,identificar,VERB,Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin,ROOT,identifica
+O6,El sistema identifica palabras y relaciones sintácticas.,palabras,palabra,NOUN,Gender=Fem|Number=Plur,obj,identifica
+O6,El sistema identifica palabras y relaciones sintácticas.,y,y,CCONJ,,cc,relaciones
+O6,El sistema identifica palabras y relaciones sintácticas.,relaciones,relación,NOUN,Gender=Fem|Number=Plur,conj,palabras
+O6,El sistema identifica palabras y relaciones sintácticas.,sintácticas,sintáctica,ADJ,Gender=Fem|Number=Plur,amod,relaciones
+O6,El sistema identifica palabras y relaciones sintácticas.,.,.,PUNCT,PunctType=Peri,punct,identifica
+O7,La profesora que dirige el proyecto explicó la metodología.,La,el,DET,Definite=Def|Gender=Fem|Number=Sing|PronType=Art,det,profesora
+O7,La profesora que dirige el proyecto explicó la metodología.,profesora,profesora,NOUN,Gender=Fem|Number=Sing,nsubj,explicó
+O7,La profesora que dirige el proyecto explicó la metodología.,que,que,PRON,"PronType=Int,Rel",obj,dirige
+O7,La profesora que dirige el proyecto explicó la metodología.,dirige,dirigir,VERB,Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin,acl,profesora
+O7,La profesora que dirige el proyecto explicó la metodología.,el,el,DET,Definite=Def|Gender=Masc|Number=Sing|PronType=Art,det,proyecto
+O7,La profesora que dirige el proyecto explicó la metodología.,proyecto,proyecto,NOUN,Gender=Masc|Number=Sing,nsubj,dirige
+O7,La profesora que dirige el proyecto explicó la metodología.,explicó,explicar,VERB,Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin,ROOT,explicó
+O7,La profesora que dirige el proyecto explicó la metodología.,la,el,DET,Definite=Def|Gender=Fem|Number=Sing|PronType=Art,det,metodología
+O7,La profesora que dirige el proyecto explicó la metodología.,metodología,metodología,NOUN,Gender=Fem|Number=Sing,obj,explicó
+O7,La profesora que dirige el proyecto explicó la metodología.,.,.,PUNCT,PunctType=Peri,punct,explicó
+O8,"Cuando terminó la clase, los estudiantes enviaron sus tareas.",Cuando,cuando,SCONJ,,mark,terminó
+O8,"Cuando terminó la clase, los estudiantes enviaron sus tareas.",terminó,terminar,VERB,Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin,advcl,enviaron
+O8,"Cuando terminó la clase, los estudiantes enviaron sus tareas.",la,el,DET,Definite=Def|Gender=Fem|Number=Sing|PronType=Art,det,clase
+O8,"Cuando terminó la clase, los estudiantes enviaron sus tareas.",clase,clase,NOUN,Gender=Fem|Number=Sing,nsubj,terminó
+O8,"Cuando terminó la clase, los estudiantes enviaron sus tareas.",",",",",PUNCT,PunctType=Comm,punct,terminó
+O8,"Cuando terminó la clase, los estudiantes enviaron sus tareas.",los,el,DET,Definite=Def|Gender=Masc|Number=Plur|PronType=Art,det,estudiantes
+O8,"Cuando terminó la clase, los estudiantes enviaron sus tareas.",estudiantes,estudiante,NOUN,Number=Plur,nsubj,enviaron
+O8,"Cuando terminó la clase, los estudiantes enviaron sus tareas.",enviaron,enviar,VERB,Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin,ROOT,enviaron
+O8,"Cuando terminó la clase, los estudiantes enviaron sus tareas.",sus,su,DET,Number=Plur|Person=3|Poss=Yes|PronType=Prs,det,tareas
+O8,"Cuando terminó la clase, los estudiantes enviaron sus tareas.",tareas,tarea,NOUN,Gender=Fem|Number=Plur,obj,enviaron
+O8,"Cuando terminó la clase, los estudiantes enviaron sus tareas.",.,.,PUNCT,PunctType=Peri,punct,enviaron
+O9,"Aunque el texto era breve, contenía varias estructuras complejas.",Aunque,aunque,SCONJ,,mark,breve
+O9,"Aunque el texto era breve, contenía varias estructuras complejas.",el,el,DET,Definite=Def|Gender=Masc|Number=Sing|PronType=Art,det,texto
+O9,"Aunque el texto era breve, contenía varias estructuras complejas.",texto,texto,NOUN,Gender=Masc|Number=Sing,nsubj,breve
+O9,"Aunque el texto era breve, contenía varias estructuras complejas.",era,ser,AUX,Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin,cop,breve
+O9,"Aunque el texto era breve, contenía varias estructuras complejas.",breve,breve,ADJ,Number=Sing,advcl,contenía
+O9,"Aunque el texto era breve, contenía varias estructuras complejas.",",",",",PUNCT,PunctType=Comm,punct,breve
+O9,"Aunque el texto era breve, contenía varias estructuras complejas.",contenía,contener,VERB,Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin,ROOT,contenía
+O9,"Aunque el texto era breve, contenía varias estructuras complejas.",varias,varios,DET,Gender=Fem|Number=Plur|PronType=Ind,det,estructuras
+O9,"Aunque el texto era breve, contenía varias estructuras complejas.",estructuras,estructura,NOUN,Gender=Fem|Number=Plur,obj,contenía
+O9,"Aunque el texto era breve, contenía varias estructuras complejas.",complejas,complejo,ADJ,Gender=Fem|Number=Plur,amod,estructuras
+O9,"Aunque el texto era breve, contenía varias estructuras complejas.",.,.,PUNCT,PunctType=Peri,punct,contenía
+O10,El estudiante dijo que el modelo reconoció correctamente el verbo.,El,el,DET,Definite=Def|Gender=Masc|Number=Sing|PronType=Art,det,estudiante
+O10,El estudiante dijo que el modelo reconoció correctamente el verbo.,estudiante,estudiante,NOUN,Number=Sing,nsubj,dijo
+O10,El estudiante dijo que el modelo reconoció correctamente el verbo.,dijo,decir,VERB,Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin,ROOT,dijo
+O10,El estudiante dijo que el modelo reconoció correctamente el verbo.,que,que,SCONJ,,mark,reconoció
+O10,El estudiante dijo que el modelo reconoció correctamente el verbo.,el,el,DET,Definite=Def|Gender=Masc|Number=Sing|PronType=Art,det,modelo
+O10,El estudiante dijo que el modelo reconoció correctamente el verbo.,modelo,modelo,NOUN,Gender=Masc|Number=Sing,nsubj,reconoció
+O10,El estudiante dijo que el modelo reconoció correctamente el verbo.,reconoció,reconocer,VERB,Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin,ccomp,dijo
+O10,El estudiante dijo que el modelo reconoció correctamente el verbo.,correctamente,correctamente,ADV,,advmod,reconoció
+O10,El estudiante dijo que el modelo reconoció correctamente el verbo.,el,el,DET,Definite=Def|Gender=Masc|Number=Sing|PronType=Art,det,verbo
+O10,El estudiante dijo que el modelo reconoció correctamente el verbo.,verbo,verbo,NOUN,Gender=Masc|Number=Sing,obj,reconoció
+O10,El estudiante dijo que el modelo reconoció correctamente el verbo.,.,.,PUNCT,PunctType=Peri,punct,dijo
+O11,El banco aprobó el crédito solicitado por la empresa.,El,el,DET,Definite=Def|Gender=Masc|Number=Sing|PronType=Art,det,banco
+O11,El banco aprobó el crédito solicitado por la empresa.,banco,banco,NOUN,Gender=Masc|Number=Sing,nsubj,aprobó
+O11,El banco aprobó el crédito solicitado por la empresa.,aprobó,aprobar,VERB,Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin,ROOT,aprobó
+O11,El banco aprobó el crédito solicitado por la empresa.,el,el,DET,Definite=Def|Gender=Masc|Number=Sing|PronType=Art,det,crédito
+O11,El banco aprobó el crédito solicitado por la empresa.,crédito,crédito,NOUN,Gender=Masc|Number=Sing,obj,aprobó
+O11,El banco aprobó el crédito solicitado por la empresa.,solicitado,solicitado,ADJ,Gender=Masc|Number=Sing|VerbForm=Part,amod,crédito
+O11,El banco aprobó el crédito solicitado por la empresa.,por,por,ADP,,case,empresa
+O11,El banco aprobó el crédito solicitado por la empresa.,la,el,DET,Definite=Def|Gender=Fem|Number=Sing|PronType=Art,det,empresa
+O11,El banco aprobó el crédito solicitado por la empresa.,empresa,empresa,NOUN,Gender=Fem|Number=Sing,obj,solicitado
+O11,El banco aprobó el crédito solicitado por la empresa.,.,.,PUNCT,PunctType=Peri,punct,aprobó
+O12,Los estudiantes se sentaron en el banco del parque.,Los,el,DET,Definite=Def|Gender=Masc|Number=Plur|PronType=Art,det,estudiantes
+O12,Los estudiantes se sentaron en el banco del parque.,estudiantes,estudiante,NOUN,Number=Plur,nsubj,sentaron
+O12,Los estudiantes se sentaron en el banco del parque.,se,él,PRON,Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes,expl:pv,sentaron
+O12,Los estudiantes se sentaron en el banco del parque.,sentaron,sentar,VERB,Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin,ROOT,sentaron
+O12,Los estudiantes se sentaron en el banco del parque.,en,en,ADP,,case,banco
+O12,Los estudiantes se sentaron en el banco del parque.,el,el,DET,Definite=Def|Gender=Masc|Number=Sing|PronType=Art,det,banco
+O12,Los estudiantes se sentaron en el banco del parque.,banco,banco,NOUN,Gender=Masc|Number=Sing,obl,sentaron
+O12,Los estudiantes se sentaron en el banco del parque.,del,del,ADP,Definite=Def|Gender=Masc|Number=Sing|PronType=Art,case,parque
+O12,Los estudiantes se sentaron en el banco del parque.,parque,parque,NOUN,Gender=Masc|Number=Sing,nmod,banco
+O12,Los estudiantes se sentaron en el banco del parque.,.,.,PUNCT,PunctType=Peri,punct,sentaron
+O13,María observó al profesor con los binoculares.,María,María,PROPN,,nsubj,observó
+O13,María observó al profesor con los binoculares.,observó,observar,VERB,Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin,ROOT,observó
+O13,María observó al profesor con los binoculares.,al,al,ADP,Definite=Def|Gender=Masc|Number=Sing|PronType=Art,case,profesor
+O13,María observó al profesor con los binoculares.,profesor,profesor,NOUN,Gender=Masc|Number=Sing,obj,observó
+O13,María observó al profesor con los binoculares.,con,con,ADP,,case,binoculares
+O13,María observó al profesor con los binoculares.,los,el,DET,Definite=Def|Gender=Masc|Number=Plur|PronType=Art,det,binoculares
+O13,María observó al profesor con los binoculares.,binoculares,binocular,NOUN,Gender=Masc|Number=Plur,obl,observó
+O13,María observó al profesor con los binoculares.,.,.,PUNCT,PunctType=Peri,punct,observó
