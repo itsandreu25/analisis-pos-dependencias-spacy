@@ -144,6 +144,31 @@ El notebook documenta:
 
 Para reproducir el análisis, se recomienda ejecutar todas las celdas del notebook en orden desde un entorno limpio.
 
+
+## Demo interactiva para la defensa
+
+El notebook principal incluye al final una interfaz basada en **ipywidgets** que utiliza el mismo
+objeto `nlp` y el mismo modelo `es_core_news_sm`. La interfaz no reemplaza el código del
+experimento: únicamente presenta las salidas de forma más visual para la demostración en vivo.
+
+La demo permite:
+
+- seleccionar O1, O11, O12 y O13;
+- escribir y analizar una oración nueva;
+- comparar la prueba adicional *Los estudiantes resuelven los ejercicios*;
+- visualizar token, lema, POS, morfología, dependencia y núcleo;
+- generar el árbol de dependencias con displaCy.
+
+Secuencia sugerida durante la defensa:
+
+1. O1: explicar `ROOT`, `nsubj` y `obj`;
+2. cambiar singular a plural y observar los rasgos morfológicos;
+3. comparar O11 y O12 con la palabra `banco`;
+4. finalizar con O13 y su ambigüedad sintáctica.
+
+> La prueba singular → plural se utiliza únicamente como demostración en vivo y no modifica
+> las 13 oraciones ni los resultados descriptivos del corpus original.
+
 ## Autores
 
 Trabajo grupal desarrollado por:
